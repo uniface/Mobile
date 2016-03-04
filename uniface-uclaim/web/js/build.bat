@@ -1,0 +1,1 @@
+call .\util\buildscripts\build profile=mdojo.profile.js action=release optimize=closure layerOptimize=closure cssOptimize=comments releaseDir=../../dojo-release/

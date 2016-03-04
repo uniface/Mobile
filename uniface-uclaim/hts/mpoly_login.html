@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>$text(M_APPLOGINTITLE)</title>
+    </head>
+    <body>
+        <div class="card">
+            <div id="ufld:LOGINACTIVE.DUMMY.DUMMY">
+                <form id="my-form" class="form-signin">
+                    <div class="header">$text(M_SIGNIN_LOGO)</div>
+                    <paper-input-decorator floatingLabel label="$text(M_LOGINUSERNAME)">
+                        <input type="email" class="form-control" placeholder="$text(M_LOGINUSERNAME)" required maxlength="30" autofocus id="username" />
+                    </paper-input-decorator>
+                    <paper-input-decorator floatingLabel label="$text(M_PASSWORD)">
+                        <input type="password" class="form-control" placeholder="$text(M_PASSWORD)" required maxlength="20" id="password" />
+                    </paper-input-decorator>
+                    <div id="ufld:CAPTCHA.DUMMY.DUMMY">DspContainer</div>
+                    <paper-button justified raised id="ufld:LOGIN.DUMMY.DUMMY" class="colored">$text(M_SIGNIN)</paper-button>
+                    <div>$text(M_NEWUSER)</div>
+                    <paper-button justified raised id="ufld:SHOWREG.DUMMY.DUMMY" class="colored">$text(M_REGISTER)</paper-button>
+                </form>
+            </div>
+            <div id="ufld:REGISTERACTIVE.DUMMY.DUMMY" style="display: none;">
+                <form id="my-reg-form" class="form-register">
+                    <div class="header">$text(M_REGISTER)</div>
+                    <paper-input-decorator floatingLabel label="$text(M_LOGINUSERNAME)" error="M_REQ_USERNAME">
+                        <input type="email" class="form-control" placeholder="$text(M_LOGINUSERNAME)" required maxlength="30" autofocus id="regusername" />
+                    </paper-input-decorator>
+                    <paper-input-decorator floatingLabel label="$text(M_PASSWORD)" error="$text(M_REQ_PASSWORD)">
+                        <input type="password" class="form-control" placeholder="$text(M_PASSWORD)" required maxlength="20" autofocus id="regpassword" />
+                    </paper-input-decorator>
+                    <paper-input-decorator floatingLabel label="$text(M_TITLE)" error="M_REQ_REQTITLE">
+                        <input type="text" class="form-control" placeholder="$text(M_TITLE)" required maxlength="10" autofocus id="title" />
+                    </paper-input-decorator>
+                    <paper-input-decorator floatingLabel label="$text(M_FIRSTNAME)" error="M_REQ_FIRSTNAME">
+                        <input type="text" class="form-control" placeholder="$text(M_FIRSTNAME)" required required maxlength="50" autofocus id="firstname" />
+                    </paper-input-decorator>
+                    <paper-input-decorator floatingLabel label="$text(M_LASTNAME)" error="M_REQ_LASTNAME">
+                        <input type="text" class="form-control" placeholder="$text(M_LASTNAME)" required required maxlength="50" autofocus id="lastname" />
+                    </paper-input-decorator>
+                    <paper-input-decorator floatingLabel label="$text(M_ADDRESS)" error="M_REQ_ADDRESS">
+                        <input type="text" class="form-control" placeholder="$text(M_ADDRESS)" maxlength="50" autofocus id="address" />
+                    </paper-input-decorator>
+                    <paper-input-decorator floatingLabel label="$text(M_CITY)" error="M_REQ_CITY">
+                        <input type="text" class="form-control" placeholder="$text(M_CITY)" maxlength="50" autofocus id="city" />
+                    </paper-input-decorator>
+                    <paper-input-decorator floatingLabel label="$text(M_STATE)" error="M_REQ_STATE">
+                        <input type="text" class="form-control" placeholder="$text(M_STATE)" maxlength="4" autofocus id="state" />
+                    </paper-input-decorator>
+                    <paper-input-decorator floatingLabel label="$text(M_POSTCODE)" error="M_REQ_POSTCODE">
+                        <input type="text" class="form-control" placeholder="$text(M_POSTCODE)" maxlength="10" autofocus id="postalcode" />
+                    </paper-input-decorator>
+                    <div horizontal justified layout>
+                        <paper-button justified raised id="ufld:REGISTER.DUMMY.DUMMY" class="colored">$text(M_REGISTER)</paper-button>
+                        <paper-button justified raised id="ufld:CANCEL.DUMMY.DUMMY" class="colored">$text(M_CANCEL)</paper-button>
+                    </div>
+                </form>
+            </div>
+            <div id="ufld:MESSAGE_AREA.DUMMY.DUMMY" style="max-width:400px;margin:0 auto;">
+                <div class="alert fade in"> <strong><span id="ufld:MESSAGE.DUMMY.DUMMY">Static Text</span></strong>
+ <span id="ufld:DESCRIPTION.DUMMY.DUMMY">Static Text</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

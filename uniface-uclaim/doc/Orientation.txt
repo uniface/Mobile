@@ -1,0 +1,73 @@
+This demo differs from the standard WebFramework in a number of ways.
+
+Some key points to be aware of:
+
+Contents
+========
+a) Customization
+
+b) Use of AdminLTE 2 template
+   a.1) Configuration
+   a.2) Customizations made for this demo
+   a.3) Changing look & feel
+
+Detail
+======
+a) Customization
+
+a.1) Change the company name from "ACME Insurance"
+- modify the M_LOGO message and re-compile
+
+a.2) Change site look & feel
+- See "Use of AdminLTE 2 template" below
+
+b) Use of AdminLTE 2 template
+
+Look and feel is based on the popular AdminLTE framework, which is built on Bootstrap.
+See https://almsaeedstudio.com/themes/AdminLTE/index2.html
+
+Developer documentation can be found at:
+https://almsaeedstudio.com/themes/AdminLTE/documentation/index.html
+
+The originial demo screen is included in the committed code and can be viewed from your web browser,
+e.g. http://localhost:8080/acme_demo_v10/AdminLTE-2.2.0/index2.html (also index.html)
+
+b.1) Configuration
+
+CSS for the desktop application based upon index.html is loaded in hts\dtop_main.html.
+
+Where related libraries were loaded from a Content Delivery Network (CDN) in index.html, this has been changed to a local copy that has been added to the commit.
+Related Javascript files are loaded separately from a JSON file depending upon the WRD used, to ensure they are loaded after the Uniface Web Framework, see the files in conf, e.g.
+
+menu.dtop.json  - Desktop App
+menu.chui.json  - iPhone App
+menu.mpoly.json - Android App
+
+b.2) Customizations made for this demo.
+
+appinc.js performs AdminLTE initialization. It can be found in web\AdminLTE-2.2.0\dist\js.
+This is a copy of the standard app.js supplied with AdminLTE, which has been modified to defer option configuration.
+
+Specifically, $(function () {
+has been changed to 
+
+$.AdminLTE.dtopInitialize = function () {
+
+The dtopInitialize function is then called from dtop_menu.createjs when dtop_menu is first initialized.
+
+Note: the $(function () { syntax is a JQuery shortcut for $(document).ready(function(){
+
+
+b.3) Changing look and feel
+
+AdminLTE 2 skin selection is hard-coded in the layout for dtop_main.html (in the hts folder), e.g.
+<body class="skin-blue-light">
+
+You can select a different class as desired from the available skins folder 
+(web/AdminLTE-2.2.0/dist/css/skins).
+
+If you want something more customized, you can create your own skin using the LESS pre-compiler.
+
+For more information and some preview links for the various skins, 
+please see the AdminLTE2.0 documentation:
+https://almsaeedstudio.com/themes/AdminLTE/documentation/index.html

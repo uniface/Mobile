@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MPOLY_POLICY</title>
+    </head>
+    <body>
+        <section class="card">
+            <div id="uent:POLICY.INSURANCE">
+                <div flex id="uocc:POLICY.INSURANCE">
+                    <paper-input-decorator disabled floatingLabel label="$text(M_DESCRIPTION)">
+                        <input type="text" id="ufld:DESCRIPTION.POLICY.INSURANCE" />
+                    </paper-input-decorator>
+                    <core-item class="flextop">
+                        <core-icon icon="account-box" class="type-icon" role="img"></core-icon>
+                        <div flex class="padded">
+                            <paper-input-decorator disabled floatingLabel label="$text(M_NUMBER)">
+                                <input type="text" id="ufld:POLICY_NUMBER.POLICY.INSURANCE" />
+                            </paper-input-decorator>
+                            <paper-input-decorator disabled floatingLabel label="$text(M_TYPE)">
+                                <input type="text" id="ufld:POLICY_TYPE.POLICY.INSURANCE" value="" />
+                            </paper-input-decorator>
+                            <paper-input-decorator disabled floatingLabel label="$text(M_EFFDATE)">
+                                <input type="date" id="ufld:EFFECTIVE_DATE.POLICY.INSURANCE" value="" />
+                            </paper-input-decorator>
+                            <paper-input-decorator disabled floatingLabel label="$text(M_EXPDATE)">
+                                <input type="date" id="ufld:EXPIRATION_DATE.POLICY.INSURANCE" value="" />
+                            </paper-input-decorator>
+                        </div>
+                    </core-item>
+                </div>
+                <div id="uent:AUTO.INSURANCE" flex>
+                    <section id="uocc:AUTO.INSURANCE" class="card">
+                        <core-item class="flextop">
+                            <core-icon icon="maps:directions-car" class="type-icon" role="img"></core-icon>
+                            <div flex class="padded">
+                                <paper-input-decorator disabled floatingLabel label="$text(M_MAKE)">
+                                    <input type="text" id="ufld:MAKE.AUTO.INSURANCE" value="" />
+                                </paper-input-decorator>
+                                <paper-input-decorator disabled floatingLabel label="$text(M_MODEL)">
+                                    <input type="text" id="ufld:MODEL.AUTO.INSURANCE" value="" />
+                                </paper-input-decorator>
+                                <paper-input-decorator disabled floatingLabel label="$text(M_YEAR)">
+                                    <input type="text" id="ufld:YEAR.AUTO.INSURANCE" value="" />
+                                </paper-input-decorator>
+                                <paper-input-decorator disabled floatingLabel label="$text(M_VIN)">
+                                    <input type="text" id="ufld:VIN.AUTO.INSURANCE" value="" />
+                                </paper-input-decorator>
+                            </div>
+                            <paper-button id="ufld:MAKE_CLAIM.AUTO.INSURANCE" raised>$text(M_CLAIM)</paper-button>
+                        </core-item>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="10.1" xmlengine="2.0">
+<TABLE>
+<DSC name="DISCOUNTS" model="INSURANCE" system="S" pseudo ="90" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0">
+<FLD name="CUSTOMERID" seqno="1" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="ID" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="DISCOUNTTYPE" seqno="3" type="S" level="2" pack="0" scale="0" length="30"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DISCOUNTPERC" seqno="4" type="N" level="2" pack="7" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450910</DAT>
+<DAT name="ID">1</DAT>
+<DAT name="DISCOUNTTYPE" xml:space='preserve'>Passive restraint</DAT>
+<DAT name="DISCOUNTPERC">1</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450910</DAT>
+<DAT name="ID">2</DAT>
+<DAT name="DISCOUNTTYPE" xml:space='preserve'>Anti Theft device</DAT>
+<DAT name="DISCOUNTPERC">1</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450910</DAT>
+<DAT name="ID">3</DAT>
+<DAT name="DISCOUNTTYPE" xml:space='preserve'>Home &amp; Car</DAT>
+<DAT name="DISCOUNTPERC">1</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450910</DAT>
+<DAT name="ID">4</DAT>
+<DAT name="DISCOUNTTYPE" xml:space='preserve'>Violation Free</DAT>
+<DAT name="DISCOUNTPERC">1</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450910</DAT>
+<DAT name="ID">5</DAT>
+<DAT name="DISCOUNTTYPE" xml:space='preserve'>Long Term Customer</DAT>
+<DAT name="DISCOUNTPERC">1</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450910</DAT>
+<DAT name="ID">6</DAT>
+<DAT name="DISCOUNTTYPE" xml:space='preserve'>Accident Free</DAT>
+<DAT name="DISCOUNTPERC">1</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

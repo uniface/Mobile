@@ -1,0 +1,6 @@
+#file .\asn\wasv.asn
+
+[LOGICALS]
+UI_TYPE    = CHUI
+APP_CONFIG = .\conf\menu.chui.json
+MAIN_HTML  = chui_main

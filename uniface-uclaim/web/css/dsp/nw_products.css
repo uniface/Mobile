@@ -1,0 +1,12 @@
+.selected-tile {
+	background-color:#d9edf7;
+	border-color:#428bca;
+}
+
+.check {
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	color:#428bca;
+	font-size:200%;
+}

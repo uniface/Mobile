@@ -1,0 +1,6 @@
+#file .\asn\wasv.asn
+
+[LOGICALS]
+UI_TYPE    = POLYMER
+APP_CONFIG = .\conf\menu.mpoly.json
+MAIN_HTML  = mpoly_main

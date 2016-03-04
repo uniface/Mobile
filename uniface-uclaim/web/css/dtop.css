@@ -1,0 +1,203 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'RobotoDraft', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+@media (min-width: 481px) {
+    #tabs {
+        width: 200px;
+    }
+    .container {
+        width: 400px;
+    }
+}
+
+.header-text {
+    padding-left: 1em;
+}
+
+core-header-panel {
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#mainheader {
+    background-color: rgb(217, 14, 26);
+    color: white;
+}
+
+.mainContent {
+    background-color: rgb(250, 250, 250);
+}
+
+#tabs {
+    width: 100%;
+    margin: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-transform: uppercase;
+}
+
+core-header-panel {
+    background: white;
+}
+
+#navheader {
+    color: white;
+    background-color: #9E9E9E;
+}
+
+.content {
+    padding: 20px;
+}
+/* drawer is always visible on a wide screen
+   so menu button isn't required */
+
+core-drawer-panel:not([narrow]) #navicon {
+    display: none;
+}
+
+.type-icon {
+    /* color: rgb(227, 107, 118); */
+    
+    color: rgb(217, 14, 26);
+    padding-right: 8px;
+}
+
+.contact-item {
+    height: 65px;
+
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 2px;
+    background-color: white;
+    margin: 5px;
+}
+
+.contact-item .subtext {
+    font-size: 0.75em;
+}
+
+paper-item core-item {
+    color: rgb(51, 51, 51);
+}
+
+.card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 2px;
+    background-color: white;
+    margin: 1rem 5px;
+    padding: .5rem 1rem;
+}
+
+.item {
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+    padding: .5em 1em;
+    cursor: default;
+    background-color: white;
+    overflow: hidden;
+}
+
+.card ul {
+    -webkit-margin-start: 0;
+    -webkit-padding-start: 1em;
+}
+
+html /deep/ core-item[layout][center].flextop {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: inherit .5rem;
+}
+
+.padded {
+    padding: 0 1rem;
+}
+
+select[disabled] {
+    border: 1px none #111;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font: inherit;
+    color: inherit;
+}
+
+.fullwidth {
+    padding: 0;
+    margin: 0.5em 0 0.25em;
+    width: 100%;
+}
+
+.hideEmptoccs .-uocc-empty- {
+    display: none;
+    /*visibility: hidden;*/
+}
+
+/*
+ *  Style for the under construction screen
+ */
+.to-be-done {
+    width: 64px;
+    height: 64px;
+    padding-top:64px;
+    color: rgb(217, 14, 26);
+}
+
+.floatbutton {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/*
+ *  Styling for login screen
+ */
+paper-button.colored {
+    color: white;
+    background-color: rgb(217, 14, 26);
+}
+
+
+.header {
+    font-size: 1.5em;
+    color: rgb(217, 14, 26);
+    font-weight: lighter;
+}
+/* 
+ * Styling for meniitems
+ */
+ menu-item {
+ color: #fff;
+ background: #1e282c;
+ border-left-color: #3c8dbc;
+ border-left: 3px solid transparent;
+ margin-right: 1px;
+ padding: 12px 5px 12px 15px;
+ display: block;
+ }
+ .skin-blue .sidebar-menu>li>.treeview-menu {
+    margin: 0 1px;
+    background: #222d32
+}
+/* 
+ * Styling to emulate static text for disabled fields
+ */
+.disabledstatictext {
+border: none;
+background-color: white;
+}

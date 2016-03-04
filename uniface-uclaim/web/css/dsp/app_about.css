@@ -1,0 +1,10 @@
+/*
+ *  Styling for APP_ABOUT page
+ */
+.markdown ul {
+  padding-left: 40px;
+}
+
+.markdown ol {
+  padding-left: 40px;
+}

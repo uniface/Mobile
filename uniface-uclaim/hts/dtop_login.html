@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="generator"
+    content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+    <title>LOGIN</title>
+  </head>
+  <body class="login-page">
+    <div class="login-box">
+      <div class="login-logo">$text(M_SIGNIN_LOGO)</div>
+      <div class="login-box-body">
+        <p class="login-box-msg">Sign in to start your session</p>
+        <form id="my-form">
+          <div class="form-group has-feedback">
+            <input type="text" placeholder="$text(M_USERNAME)" class="form-control" required="" autofocus="" id="username" />
+          </div>
+          <div class="form-group has-feedback">
+            <input type="password" placeholder="$text(M_PASSWORD)" class="form-control" required="" id="password" />
+          </div>
+          <div id="ufld:CAPTCHA.DUMMY.DUMMY">DspContainer</div>
+          <div class="row">
+            <div class="col-xs-8">
+              <!-- label class="checkbox">
+                                        <input type="checkbox" id="ufld:REMEMBER_ME.DUMMY.DUMMY"/> $text(M_REMEMBERME)
+                                </label -->
+              <div class="checkbox icheck">
+                <label>
+                <input type="checkbox" /> $text(M_REMEMBERME)</label>
+              </div>
+            </div>
+            <!-- /.col -->
+            <div class="col-xs-4">
+              <button id="ufld:LOGIN.DUMMY.DUMMY" class="btn btn-primary btn-block btn-flat" type="submit">$text(M_SIGNIN)</button>
+            </div>
+            <!-- /.col -->
+          </div>
+		  <a>$text(M_FORGOTPASSWORD)</a>
+          <div id="ufld:MESSAGE_AREA.DUMMY.DUMMY" style="max-width:400px;margin:0 auto;">
+            <div class="alert fade in">
+            <strong>
+              <span id="ufld:MESSAGE.DUMMY.DUMMY">Static Text</span>
+            </strong> 
+            <span id="ufld:DESCRIPTION.DUMMY.DUMMY">Static Text</span></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
