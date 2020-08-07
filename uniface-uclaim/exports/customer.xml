@@ -1,0 +1,518 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="10.1" xmlengine="2.0">
+<TABLE>
+<DSC name="CUSTOMER" model="INSURANCE" system="S" pseudo ="90" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0">
+<FLD name="CUSTOMERID" seqno="1" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="TITLE" seqno="2" type="S" level="2" pack="13" scale="0" length="10"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="FIRSTNAME" seqno="3" type="S" level="2" pack="13" scale="0" length="50"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LASTNAME" seqno="4" type="S" level="2" pack="13" scale="0" length="50"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="EMAIL" seqno="5" type="S" level="2" pack="13" scale="0" length="30"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ADDRESS" seqno="6" type="S" level="2" pack="14" scale="0" length="50"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="CITY" seqno="7" type="S" level="2" pack="14" scale="0" length="50"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="STATE" seqno="8" type="S" level="2" pack="13" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="POSTALCODE" seqno="9" type="S" level="2" pack="14" scale="0" length="10"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="BIRTH_PLACE" seqno="10" type="S" level="2" pack="13" scale="0" length="50"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="COMPANY" seqno="11" type="S" level="2" pack="13" scale="0" length="50"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="PARTTIME" seqno="12" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DOB" seqno="13" type="D" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="PHONE" seqno="14" type="S" level="2" pack="14" scale="0" length="20"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B6445091</DAT>
+<DAT name="TITLE">Rev</DAT>
+<DAT name="FIRSTNAME">Lisa</DAT>
+<DAT name="LASTNAME">Martinez</DAT>
+<DAT name="EMAIL">lmartinez@voonix.edu</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>1018 Arrowood Avenue</DAT>
+<DAT name="CITY">Sebastopol</DAT>
+<DAT name="STATE">Nebraska</DAT>
+<DAT name="POSTALCODE">93069-0305</DAT>
+<DAT name="BIRTH_PLACE">Bahrain</DAT>
+<DAT name="COMPANY">Quire</DAT>
+<DAT name="PARTTIME">N</DAT>
+<DAT name="DOB">1962-04-25</DAT>
+<DAT name="PHONE">9-(602)191-0670</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B6445092</DAT>
+<DAT name="TITLE">Mrs</DAT>
+<DAT name="FIRSTNAME">Phillip</DAT>
+<DAT name="LASTNAME">Ryan</DAT>
+<DAT name="EMAIL">pryan@devify.gov</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>78 Anderson Place</DAT>
+<DAT name="CITY">Livermore</DAT>
+<DAT name="STATE">Montana</DAT>
+<DAT name="POSTALCODE">03811-2483</DAT>
+<DAT name="BIRTH_PLACE" xml:space='preserve'>Burkina Faso</DAT>
+<DAT name="COMPANY">Lajo</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1994-03-19</DAT>
+<DAT name="PHONE">8-(179)802-0145</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B6445093</DAT>
+<DAT name="TITLE">Mrs</DAT>
+<DAT name="FIRSTNAME">Alan</DAT>
+<DAT name="LASTNAME">Dean</DAT>
+<DAT name="EMAIL">adean@edgepulse.name</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>64319 Meadow Valley Pass</DAT>
+<DAT name="CITY">Pinole</DAT>
+<DAT name="STATE">Kentucky</DAT>
+<DAT name="POSTALCODE">79711</DAT>
+<DAT name="BIRTH_PLACE">Australia</DAT>
+<DAT name="COMPANY">Shuffledrive</DAT>
+<DAT name="PARTTIME">N</DAT>
+<DAT name="DOB">1972-01-01</DAT>
+<DAT name="PHONE">0-(558)879-0979</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B6445094</DAT>
+<DAT name="TITLE">Rev</DAT>
+<DAT name="FIRSTNAME">Eric</DAT>
+<DAT name="LASTNAME">Marshall</DAT>
+<DAT name="EMAIL">emarshall@vidoo.com</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>1 Brown Point</DAT>
+<DAT name="CITY" xml:space='preserve'>Big Bear Lake</DAT>
+<DAT name="STATE" xml:space='preserve'>New Jersey</DAT>
+<DAT name="POSTALCODE">61609-9897</DAT>
+<DAT name="BIRTH_PLACE">Nauru</DAT>
+<DAT name="COMPANY">Zooxo</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1976-12-04</DAT>
+<DAT name="PHONE">1-(648)324-2233</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B6445095</DAT>
+<DAT name="TITLE">Mrs</DAT>
+<DAT name="FIRSTNAME">Steven</DAT>
+<DAT name="LASTNAME">Berry</DAT>
+<DAT name="EMAIL">sberry@devpoint.info</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>5 Sage Park</DAT>
+<DAT name="CITY" xml:space='preserve'>San Dimas</DAT>
+<DAT name="STATE">Kansas</DAT>
+<DAT name="POSTALCODE">44832-5491</DAT>
+<DAT name="BIRTH_PLACE" xml:space='preserve'>French Polynesia</DAT>
+<DAT name="COMPANY">Oodoo</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1952-08-19</DAT>
+<DAT name="PHONE">3-(297)318-8587</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B6445096</DAT>
+<DAT name="TITLE">Mrs</DAT>
+<DAT name="FIRSTNAME">Phillip</DAT>
+<DAT name="LASTNAME">Collins</DAT>
+<DAT name="EMAIL">pcollins@rhyzio.name</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>76676 Rowland Terrace</DAT>
+<DAT name="CITY">Chino</DAT>
+<DAT name="STATE">Alaska</DAT>
+<DAT name="POSTALCODE">79463</DAT>
+<DAT name="BIRTH_PLACE" xml:space='preserve'>Cocos (Keeling) Island</DAT>
+<DAT name="COMPANY">Zava</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1975-10-11</DAT>
+<DAT name="PHONE">3-(935)055-1705</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B6445097</DAT>
+<DAT name="TITLE">Rev</DAT>
+<DAT name="FIRSTNAME">Eugene</DAT>
+<DAT name="LASTNAME">Henry</DAT>
+<DAT name="EMAIL">ehenry@ainyx.info</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>06087 Russell Street</DAT>
+<DAT name="CITY" xml:space='preserve'>Rio Dell</DAT>
+<DAT name="STATE">Wyoming</DAT>
+<DAT name="POSTALCODE">96803</DAT>
+<DAT name="BIRTH_PLACE" xml:space='preserve'>New Caledonia</DAT>
+<DAT name="COMPANY">Shufflester</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1960-11-11</DAT>
+<DAT name="PHONE">6-(840)333-3027</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B6445098</DAT>
+<DAT name="TITLE">Dr</DAT>
+<DAT name="FIRSTNAME">Christopher</DAT>
+<DAT name="LASTNAME">Robertson</DAT>
+<DAT name="EMAIL">crobertson@skimia.com</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>7 Mcguire Plaza</DAT>
+<DAT name="CITY">Maywood</DAT>
+<DAT name="STATE">Utah</DAT>
+<DAT name="POSTALCODE">53132</DAT>
+<DAT name="BIRTH_PLACE" xml:space='preserve'>Korea, South</DAT>
+<DAT name="COMPANY">Geba</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1946-06-11</DAT>
+<DAT name="PHONE">7-(840)059-1977</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B6445099</DAT>
+<DAT name="TITLE">Rev</DAT>
+<DAT name="FIRSTNAME">Julia</DAT>
+<DAT name="LASTNAME">Dunn</DAT>
+<DAT name="EMAIL">jdunn@bubblebox.com</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>13 Atwood Avenue</DAT>
+<DAT name="CITY">Taft</DAT>
+<DAT name="STATE" xml:space='preserve'>New York</DAT>
+<DAT name="POSTALCODE">35202</DAT>
+<DAT name="BIRTH_PLACE" xml:space='preserve'>Saint Martin</DAT>
+<DAT name="COMPANY">Fiveclub</DAT>
+<DAT name="PARTTIME">N</DAT>
+<DAT name="DOB">1966-06-16</DAT>
+<DAT name="PHONE">2-(942)269-5187</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450910</DAT>
+<DAT name="TITLE">Dr</DAT>
+<DAT name="FIRSTNAME">Daniel</DAT>
+<DAT name="LASTNAME">Wallace</DAT>
+<DAT name="EMAIL">dwallace@pixonyx.mil</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>85330 Amoth Lane</DAT>
+<DAT name="CITY">Woodland</DAT>
+<DAT name="STATE">Florida</DAT>
+<DAT name="POSTALCODE">80606</DAT>
+<DAT name="BIRTH_PLACE">USSR</DAT>
+<DAT name="COMPANY">Topicstorm</DAT>
+<DAT name="PARTTIME">N</DAT>
+<DAT name="DOB">1968-04-30</DAT>
+<DAT name="PHONE">9-(451)481-5239</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450911</DAT>
+<DAT name="TITLE">Ms</DAT>
+<DAT name="FIRSTNAME">Samuel</DAT>
+<DAT name="LASTNAME">Porter</DAT>
+<DAT name="EMAIL">sporter@mynte.gov</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>24027 Hansons Circle</DAT>
+<DAT name="CITY">Fillmore</DAT>
+<DAT name="STATE">Vermont</DAT>
+<DAT name="POSTALCODE">21082</DAT>
+<DAT name="BIRTH_PLACE">Nicaragua</DAT>
+<DAT name="COMPANY">Photofeed</DAT>
+<DAT name="PARTTIME">N</DAT>
+<DAT name="DOB">1995-01-23</DAT>
+<DAT name="PHONE">5-(214)859-1571</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450912</DAT>
+<DAT name="TITLE">Rev</DAT>
+<DAT name="FIRSTNAME">Joshua</DAT>
+<DAT name="LASTNAME">Weaver</DAT>
+<DAT name="EMAIL">jweaver@browseblab.info</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>7030 6th Pass</DAT>
+<DAT name="CITY" xml:space='preserve'>Fountain Valley</DAT>
+<DAT name="STATE">Nebraska</DAT>
+<DAT name="POSTALCODE">83297-4387</DAT>
+<DAT name="BIRTH_PLACE">Senegal</DAT>
+<DAT name="COMPANY">Skipstorm</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1968-04-05</DAT>
+<DAT name="PHONE">3-(212)037-8733</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450913</DAT>
+<DAT name="TITLE">Rev</DAT>
+<DAT name="FIRSTNAME">Aaron</DAT>
+<DAT name="LASTNAME">Black</DAT>
+<DAT name="EMAIL">ablack@abatz.gov</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>46 Dryden Trail</DAT>
+<DAT name="CITY">Cypress</DAT>
+<DAT name="STATE">Montana</DAT>
+<DAT name="POSTALCODE">24770-4178</DAT>
+<DAT name="BIRTH_PLACE">Thailand</DAT>
+<DAT name="COMPANY">Eabox</DAT>
+<DAT name="PARTTIME">N</DAT>
+<DAT name="DOB">1961-12-22</DAT>
+<DAT name="PHONE">9-(585)016-5679</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450914</DAT>
+<DAT name="TITLE">Mr</DAT>
+<DAT name="FIRSTNAME">Edward</DAT>
+<DAT name="LASTNAME">Brown</DAT>
+<DAT name="EMAIL">ebrown@flipbug.org</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>5 Golf View Drive</DAT>
+<DAT name="CITY">Jackson</DAT>
+<DAT name="STATE">Utah</DAT>
+<DAT name="POSTALCODE">36726</DAT>
+<DAT name="BIRTH_PLACE" xml:space='preserve'>Vatican City State (Holy See)</DAT>
+<DAT name="COMPANY">Realpoint</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1988-11-22</DAT>
+<DAT name="PHONE">9-(090)293-8013</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450915</DAT>
+<DAT name="TITLE">Ms</DAT>
+<DAT name="FIRSTNAME">Randy</DAT>
+<DAT name="LASTNAME">Jenkins</DAT>
+<DAT name="EMAIL">rjenkins@quimba.gov</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>4 Autumn Leaf Hill</DAT>
+<DAT name="CITY" xml:space='preserve'>San Anselmo</DAT>
+<DAT name="STATE">Vermont</DAT>
+<DAT name="POSTALCODE">82917</DAT>
+<DAT name="BIRTH_PLACE" xml:space='preserve'>French Guiana</DAT>
+<DAT name="COMPANY">Wikizz</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1962-11-12</DAT>
+<DAT name="PHONE">8-(617)824-5101</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450916</DAT>
+<DAT name="TITLE">Mrs</DAT>
+<DAT name="FIRSTNAME">Bonnie</DAT>
+<DAT name="LASTNAME">Daniels</DAT>
+<DAT name="EMAIL">bdaniels@kimia.net</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>86655 Acker Place</DAT>
+<DAT name="CITY" xml:space='preserve'>San Jacinto</DAT>
+<DAT name="STATE">California</DAT>
+<DAT name="POSTALCODE">67437-5420</DAT>
+<DAT name="BIRTH_PLACE" xml:space='preserve'>Cape Verde</DAT>
+<DAT name="COMPANY">Wikizz</DAT>
+<DAT name="PARTTIME">N</DAT>
+<DAT name="DOB">1945-05-19</DAT>
+<DAT name="PHONE">3-(795)016-1215</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450917</DAT>
+<DAT name="TITLE">Ms</DAT>
+<DAT name="FIRSTNAME">Eugene</DAT>
+<DAT name="LASTNAME">Carter</DAT>
+<DAT name="EMAIL">ecarter@brainfire.org</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>29650 Fuller Lane</DAT>
+<DAT name="CITY" xml:space='preserve'>Palos Verdes Estates</DAT>
+<DAT name="STATE" xml:space='preserve'>South Dakota</DAT>
+<DAT name="POSTALCODE">27664-7040</DAT>
+<DAT name="BIRTH_PLACE">Kazakhstan</DAT>
+<DAT name="COMPANY">Dynabox</DAT>
+<DAT name="PARTTIME">N</DAT>
+<DAT name="DOB">1994-09-04</DAT>
+<DAT name="PHONE">0-(760)306-1110</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450918</DAT>
+<DAT name="TITLE">Ms</DAT>
+<DAT name="FIRSTNAME">Craig</DAT>
+<DAT name="LASTNAME">Vasquez</DAT>
+<DAT name="EMAIL">cvasquez@nlounge.edu</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>78319 Bunting Plaza</DAT>
+<DAT name="CITY" xml:space='preserve'>Santa Cruz</DAT>
+<DAT name="STATE">Maryland</DAT>
+<DAT name="POSTALCODE">12886-6324</DAT>
+<DAT name="BIRTH_PLACE">Guinea</DAT>
+<DAT name="COMPANY">Livetube</DAT>
+<DAT name="PARTTIME">N</DAT>
+<DAT name="DOB">1986-09-16</DAT>
+<DAT name="PHONE">9-(812)243-0276</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450919</DAT>
+<DAT name="TITLE">Rev</DAT>
+<DAT name="FIRSTNAME">Martin</DAT>
+<DAT name="LASTNAME">Crawford</DAT>
+<DAT name="EMAIL">mcrawford@twitternation.gov</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>89 Kinsman Parkway</DAT>
+<DAT name="CITY" xml:space='preserve'>Loma Linda</DAT>
+<DAT name="STATE">Missouri</DAT>
+<DAT name="POSTALCODE">18961-4942</DAT>
+<DAT name="BIRTH_PLACE">Gambia</DAT>
+<DAT name="COMPANY">Jaxbean</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1990-03-13</DAT>
+<DAT name="PHONE">8-(448)901-8065</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450920</DAT>
+<DAT name="TITLE">Dr</DAT>
+<DAT name="FIRSTNAME">Mary</DAT>
+<DAT name="LASTNAME">Vasquez</DAT>
+<DAT name="EMAIL">mvasquez@yabox.net</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>00 Spenser Pass</DAT>
+<DAT name="CITY">Moraga</DAT>
+<DAT name="STATE">Maryland</DAT>
+<DAT name="POSTALCODE">82061</DAT>
+<DAT name="BIRTH_PLACE">Guatemala</DAT>
+<DAT name="COMPANY">Brainsphere</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1956-04-13</DAT>
+<DAT name="PHONE">0-(130)133-1284</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450921</DAT>
+<DAT name="TITLE">Rev</DAT>
+<DAT name="FIRSTNAME">Kathleen</DAT>
+<DAT name="LASTNAME">Larson</DAT>
+<DAT name="EMAIL">klarson@tanoodle.net</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>419 Colorado Circle</DAT>
+<DAT name="CITY" xml:space='preserve'>San Bernardino</DAT>
+<DAT name="STATE">Louisiana</DAT>
+<DAT name="POSTALCODE">23039</DAT>
+<DAT name="BIRTH_PLACE">Georgia</DAT>
+<DAT name="COMPANY">Jamia</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1973-02-20</DAT>
+<DAT name="PHONE">6-(499)389-8614</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450922</DAT>
+<DAT name="TITLE">Mr</DAT>
+<DAT name="FIRSTNAME">Kenneth</DAT>
+<DAT name="LASTNAME">Hicks</DAT>
+<DAT name="EMAIL">khicks@bubblemix.com</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>73 Oakridge Pass</DAT>
+<DAT name="CITY">Soledad</DAT>
+<DAT name="STATE">Vermont</DAT>
+<DAT name="POSTALCODE">13685-1262</DAT>
+<DAT name="BIRTH_PLACE">Senegal</DAT>
+<DAT name="COMPANY">Nlounge</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1991-03-04</DAT>
+<DAT name="PHONE">1-(536)500-5330</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450923</DAT>
+<DAT name="TITLE">Honorable</DAT>
+<DAT name="FIRSTNAME">Annie</DAT>
+<DAT name="LASTNAME">Olson</DAT>
+<DAT name="EMAIL">aolson@fivespan.net</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>5 Summit Avenue</DAT>
+<DAT name="CITY">Ferndale</DAT>
+<DAT name="STATE">Minnesota</DAT>
+<DAT name="POSTALCODE">84829-3797</DAT>
+<DAT name="BIRTH_PLACE">Vanuatu</DAT>
+<DAT name="COMPANY">Dynabox</DAT>
+<DAT name="PARTTIME">N</DAT>
+<DAT name="DOB">1956-09-12</DAT>
+<DAT name="PHONE">9-(914)539-4664</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450924</DAT>
+<DAT name="TITLE">Mrs</DAT>
+<DAT name="FIRSTNAME">Arthur</DAT>
+<DAT name="LASTNAME">Palmer</DAT>
+<DAT name="EMAIL">apalmer@mycat.net</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>0 Oriole Park</DAT>
+<DAT name="CITY" xml:space='preserve'>Blue Lake</DAT>
+<DAT name="STATE">Hawaii</DAT>
+<DAT name="POSTALCODE">23982</DAT>
+<DAT name="BIRTH_PLACE">Colombia</DAT>
+<DAT name="COMPANY">Jazzy</DAT>
+<DAT name="PARTTIME">N</DAT>
+<DAT name="DOB">1952-08-10</DAT>
+<DAT name="PHONE">5-(869)940-6957</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450925</DAT>
+<DAT name="TITLE">Rev</DAT>
+<DAT name="FIRSTNAME">Joyce</DAT>
+<DAT name="LASTNAME">Rose</DAT>
+<DAT name="EMAIL">jrose@eire.name</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>75016 Loftsgordon Point</DAT>
+<DAT name="CITY" xml:space='preserve'>La Habra Heights</DAT>
+<DAT name="STATE">Utah</DAT>
+<DAT name="POSTALCODE">89448-2365</DAT>
+<DAT name="BIRTH_PLACE">Croatia</DAT>
+<DAT name="COMPANY">Flipopia</DAT>
+<DAT name="PARTTIME">N</DAT>
+<DAT name="DOB">1945-11-30</DAT>
+<DAT name="PHONE">8-(012)349-0555</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450926</DAT>
+<DAT name="TITLE">Honorable</DAT>
+<DAT name="FIRSTNAME">Teresa</DAT>
+<DAT name="LASTNAME">Andrews</DAT>
+<DAT name="EMAIL">tandrews@tambee.mil</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>45627 Myrtle Avenue</DAT>
+<DAT name="CITY">Weed</DAT>
+<DAT name="STATE" xml:space='preserve'>North Dakota</DAT>
+<DAT name="POSTALCODE">84501</DAT>
+<DAT name="BIRTH_PLACE">Norway</DAT>
+<DAT name="COMPANY">Jaxnation</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1956-04-03</DAT>
+<DAT name="PHONE">1-(467)682-4101</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450927</DAT>
+<DAT name="TITLE">Honorable</DAT>
+<DAT name="FIRSTNAME">Ernest</DAT>
+<DAT name="LASTNAME">Kelly</DAT>
+<DAT name="EMAIL">ekelly@leexo.org</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>17 Calypso Court</DAT>
+<DAT name="CITY" xml:space='preserve'>Los Gatos</DAT>
+<DAT name="STATE">Montana</DAT>
+<DAT name="POSTALCODE">88395-8558</DAT>
+<DAT name="BIRTH_PLACE">Guatemala</DAT>
+<DAT name="COMPANY">Kanoodle</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1970-01-05</DAT>
+<DAT name="PHONE">5-(886)576-0394</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450928</DAT>
+<DAT name="TITLE">Ms</DAT>
+<DAT name="FIRSTNAME">Janice</DAT>
+<DAT name="LASTNAME">Lane</DAT>
+<DAT name="EMAIL">jlane@oyoba.name</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>221 Anzinger Crossing</DAT>
+<DAT name="CITY">Benicia</DAT>
+<DAT name="STATE">Oregon</DAT>
+<DAT name="POSTALCODE">31193</DAT>
+<DAT name="BIRTH_PLACE" xml:space='preserve'>Faroe Islands</DAT>
+<DAT name="COMPANY">Eare</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1949-08-01</DAT>
+<DAT name="PHONE">0-(075)830-4469</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450929</DAT>
+<DAT name="TITLE">Mrs</DAT>
+<DAT name="FIRSTNAME">Sarah</DAT>
+<DAT name="LASTNAME">Bowman</DAT>
+<DAT name="EMAIL">sbowman@twinder.com</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>5539 Sauthoff Avenue</DAT>
+<DAT name="CITY" xml:space='preserve'>Morro Bay</DAT>
+<DAT name="STATE" xml:space='preserve'>South Dakota</DAT>
+<DAT name="POSTALCODE">60178-1386</DAT>
+<DAT name="BIRTH_PLACE" xml:space='preserve'>Sao Tome and Principe</DAT>
+<DAT name="COMPANY">Twitterworks</DAT>
+<DAT name="PARTTIME">N</DAT>
+<DAT name="DOB">1985-10-19</DAT>
+<DAT name="PHONE">7-(686)015-5889</DAT>
+</OCC>
+<OCC>
+<DAT name="CUSTOMERID">0836DD6A829549D1BD7B5B7B64450930</DAT>
+<DAT name="TITLE">Ms</DAT>
+<DAT name="FIRSTNAME">Joshua</DAT>
+<DAT name="LASTNAME">Reyes</DAT>
+<DAT name="EMAIL">jreyes@flashdog.name</DAT>
+<DAT name="ADDRESS" xml:space='preserve'>952 Leroy Alley</DAT>
+<DAT name="CITY">Santee</DAT>
+<DAT name="STATE">Florida</DAT>
+<DAT name="POSTALCODE">37539</DAT>
+<DAT name="BIRTH_PLACE" xml:space='preserve'>Vatican City State (Holy See)</DAT>
+<DAT name="COMPANY">Oodoo</DAT>
+<DAT name="PARTTIME">Y</DAT>
+<DAT name="DOB">1977-05-22</DAT>
+<DAT name="PHONE">6-(953)588-0050</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

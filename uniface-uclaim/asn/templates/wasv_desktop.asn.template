@@ -1,0 +1,6 @@
+#file .\asn\wasv.asn
+
+[LOGICALS]
+UI_TYPE    = DESKTOP
+APP_CONFIG = .\conf\menu.dtop.json
+MAIN_HTML  = dtop_main

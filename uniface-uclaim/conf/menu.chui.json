@@ -1,0 +1,139 @@
+{
+	"js": [
+		"../chocolatechip-ui/src/chocolatechipjs/chocolatechip-3.8.0.js",
+		"../chocolatechip-ui/dist/chui-3.8.0.js",
+		"../js/mapp/main.js",
+		"../js/mapp/config.js",
+		"../js/mapp/chui/ui.js",
+		"../js/mapp/chui/MDSP_HOME.js",
+        "../js/mapp/chui/MDSP_TOBEDONE.js",
+        "../js/mapp/chui/MDSP_CLAIMS.js",
+        "../js/mapp/chui/MDSP_CLAIM.js"
+	],
+	"login": {
+		"dsp": "Login",
+		"instanceName": "CHUI_LOGIN"
+	},
+	"menu": {
+		"dsp": "CHUI_MENU",
+		"params": {
+			"menuitems":"[{'home':'$text(M_MENUHOMEPAGE)'},
+		{'claim':'$text(M_MAKECLAIM)'},
+		{'claims':'$text(M_MYCLAIMS)'},
+		{'messages':'$text(M_MESSAGES)'},
+		{'contacts':'$text(M_CONTACTS)'},
+		{'logout':'$text(M_LOGOUT)'}]"
+		},	
+		"children":	{
+			"home" : {
+				"label": "$text(M_MYINSURANCE)",
+				"dsp": "MDSP_HOME",
+				"params": {
+					"mode":"r"
+		  		},
+		  		"buttons": [
+					"MENU_BUTTON"
+				],
+		  		"children": {
+					"detail" : {
+						"label": "$text(M_MYPOLICIES)",
+						"dsp": "MDSP_POLICY",
+						"params": {
+							"mode":"r"
+						},
+						"buttons": [
+							"REFRESH_BUTTON"
+							]
+					}
+				}
+			},
+			"claim" : {
+				"label": "$text(M_MAKECLAIM)",
+				"dsp": "MDSP_CLAIM",
+				"instanceName": "CHUI_CLAIM_C",
+				"params": {
+					"mode":"c"
+		  		},
+				"buttons": [
+					"REFRESH_BUTTON",
+					"SAVE_BUTTON"
+				]
+			},
+			"claims" : {
+				"label": "$text(M_MYCLAIMS)",
+				"dsp": "MDSP_CLAIMS",
+				"params": {
+					"edit":"$text(M_EDIT)",
+					"done":"$text(M_DONE)"
+				},
+				"buttons": [
+					"MENU_BUTTON",
+					"EDIT_BUTTON"
+				],
+				"children": {
+					"detail" : {
+						"label": "$text(M_CLAIM)",
+						"dsp": "MDSP_CLAIM",
+						"instanceName": "CHUI_CLAIM_R",
+						"params": {
+							"mode":"r"
+						},
+						"buttons": [
+							"REFRESH_BUTTON",
+							"MSG_BUTTON",
+							"EDIT_BUTTON"
+						],
+						"children": {
+							"message" : {
+							"label": "$text(M_MESSAGES)",
+							"dsp": "MDSP_EVENT",
+							"params": {
+								"mode":"r"
+						    		  },
+							"buttons": [
+								"REFRESH_BUTTON"
+								]
+							    }					   
+						}
+					},
+					"edit" : {
+						"label": "$text(M_EDITCLAIM)",
+						"dsp": "MDSP_CLAIM",
+						"instanceName": "CHUI_CLAIM_U",
+						"params": {
+							"mode":"u"
+						},
+						"buttons": [
+							"REFRESH_BUTTON",
+							"SAVE_BUTTON"
+						]
+					}					
+				}
+			},
+			"messages" : {
+				"label": "$text(M_MESSAGES)",
+				"dsp": "MDSP_TOBEDONE",
+				"instanceName": "CHUI_TOBEDONE_M",
+				"buttons": [
+					"MENU_BUTTON"
+				]
+			},
+			"contacts" : {
+				"label": "$text(M_CONTACTS)",
+				"dsp": "MDSP_TOBEDONE",
+				"instanceName": "CHUI_TOBEDONE_C",
+				"buttons": [
+					"MENU_BUTTON"
+				]
+			},
+			"logout" : {
+				"label": "$text(M_LOGOUT)",
+				"dsp": "MDSP_TOBEDONE",
+				"instanceName": "CHUI_TOBEDONE_L",
+				"buttons": [
+					"MENU_BUTTON"
+				]
+			}
+		}
+	}
+}

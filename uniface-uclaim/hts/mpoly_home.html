@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MPOLY_HOME</title>
+    </head>
+    <body>
+        <div class="header-text">
+             <h2>
+            <span id="ufld:FIRSTNAME.CUSTOMER.INSURANCE"></span>
+            <span id="ufld:LASTNAME.CUSTOMER.INSURANCE"></span>
+        </h2>
+2015 $text(M_EFFECTPOLICIES)</div>
+        <core-selector class="content" id="uent:POLICY.INSURANCE">
+            <paper-item id="uocc:POLICY.INSURANCE" class="contact-item" layout horizontal center>
+                <core-icon id="ufld:ICON.POLICY.INSURANCE" class="type-icon"></core-icon>
+                <div flex> <span id="ufld:DESCRIPTION.POLICY.INSURANCE"></span>
+
+                </div>
+            </paper-item>
+        </core-selector>
+        <section class="card">
+             <h3>
+            $text(M_MESSAGES)
+        </h3>
+
+            <ul>
+                <li class="item">
+                    <p>$text(M_CALLAGENT1)</p>
+                    <p>1-800-267-8723</p>
+                </li>
+            </ul>
+        </section>
+        <section class="card">
+             <h3>
+            $text(M_CALLAGENT2)
+        </h3>
+
+            <ul id="uent:DISCOUNTS.INSURANCE">
+                <li id="uocc:DISCOUNTS.INSURANCE" class="item"> <span id="ufld:DISCOUNTTYPE.DISCOUNTS.INSURANCE">Static Text</span>
+
+                </li>
+            </ul>
+            </core-card>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,1818 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" repversion="1" xmlengine="2.0">
+<TABLE>
+<DSC name="UFORM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="3" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="FTYP" seqno="4" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="FHEAD" seqno="7" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VMAAT" seqno="8" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HMAAT" seqno="9" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOLOR" seqno="10" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="CLRSCRN" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBORDER" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBIN" seqno="17" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBOT" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="MOVABLE" seqno="19" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOINVERSE" seqno="20" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBRIGHT" seqno="21" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOUNLINE" seqno="22" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBLINK" seqno="23" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPANEL" seqno="24" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="POSPANEL" seqno="25" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPULL" seqno="26" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HIDESTACK" seqno="27" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="28" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UINHERIT" seqno="29" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LIBRAR" seqno="30" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSACT" seqno="31" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="CONSTRAINTS" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="INIT" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="CLEAR" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="RETRIEVE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="RECORD" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="STORE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DELET" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ACCEPT" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="QUIT" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="INTKEY" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="SPRINT" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="EPRINT" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ASYNC" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="FORMPIC" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="HEADER" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="LISTING" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="PERF" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="PROTO" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="TITLE" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="WINPROP" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="FRLF" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="FRGF" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="SFUNC" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="HTMLPROP" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USCONTAINED" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="UEXECDEF" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="UML_DATA" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPPROP" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="HTML_FORMAT" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_STYLES" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_H" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_BODYHOOK" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPCLASS" seqno="70" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="GETSTATE" seqno="71" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="SETSTATE" seqno="72" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UNOSTATE" seqno="73" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="CMP_EXT" seqno="74" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UCTRIGGERS" seqno="75" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="UACCESSPATH" seqno="76" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="USPLITPROP" seqno="77" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL2" seqno="78" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="USTATEMANAGEDBY" seqno="79" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="HTMLSKELETON" seqno="80" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-04-01T17:09:02.00</DAT>
+<DAT name="UCOMPSTAMP">2015-08-12T09:52:58.00</DAT>
+<DAT name="ULABEL">APP_UROUTMON</DAT>
+<DAT name="WVPOS">0</DAT>
+<DAT name="WHPOS">0</DAT>
+<DAT name="WVSIZ">10</DAT>
+<DAT name="WHSIZ">40</DAT>
+<DAT name="CLRSCRN">N</DAT>
+<DAT name="UBORDER">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UTRANSACT">1</DAT>
+<DAT name="TPLACTUAL" xml:space='preserve'>
+#Comment ----------------------------------------------
+#Comment start_of_references
+#ifdefined TEMPLATENAME
+#info symbol TEMPLATENAME is already or also defined as a global or local constant
+#endif
+#define TEMPLATENAME=
+#Comment 
+
+#Comment end_of_references
+
+
+#Comment ----------------------------------------------
+#Comment start_of_mappings
+#Comment end_of_mappings
+
+
+#Comment ----------------------------------------------
+#Comment start_of_symbols
+#Comment end_of_symbols
+
+
+#Comment ----------------------------------------------
+</DAT>
+<DAT name="INIT" xml:space='preserve'>variables
+	Struct  vURouterS
+	Struct  vURouterD
+	Struct  vURClientS
+	Struct  vURServerS
+	Struct  vURClientD
+	Struct  vURServerD
+	Numeric i
+	Numeric vCollSize
+	String  vHost
+	String  vPid
+	Boolean vUpdateStatic
+	String  vSrvId
+endvariables
+
+$instancehandle-&gt;setProperty("PORT", "13002")
+$instancehandle-&gt;connect()
+
+$instancehandle-&gt;getURouter(vURouterS)
+$instancehandle-&gt;getURouterDynamic(vURouterD)
+
+
+$instancehandle-&gt;getClients(vURClientS)
+$instancehandle-&gt;getServers(vURServerS)
+
+$instancehandle-&gt;admLogon()
+
+i = 1
+vCollSize = vURClientS-&gt;"OCC"-&gt;$collSize
+while(i &lt;= vCollSize)
+
+	vHost = vURClientS-&gt;"OCC"{i}-&gt;"HOST"
+	vPid  = vURClientS-&gt;"OCC"{i}-&gt;"PID"
+
+	$instancehandle-&gt;getClientDynamic(vHost, vPid, vUpdateStatic, vURClientD)
+
+	i = i + 1
+endwhile
+
+i = 1
+vCollSize = vURServerS-&gt;"OCC"-&gt;$collSize
+while(i &lt;= vCollSize)
+
+	vSrvId = vURServerS-&gt;"OCC"{i}-&gt;"SRVID"
+
+	$instancehandle-&gt;getServerDynamic(vSrvId, vUpdateStatic, vURServerD)
+
+	i = i + 1
+endwhile
+
+$instancehandle-&gt;admLogoff()
+$instancehandle-&gt;disconnect()</DAT>
+<DAT name="GENERAL" xml:space='preserve'>;------------------------------------------------------
+; TODO: These defaults will need overriding for certain
+;       operations
+;------------------------------------------------------
+entry lpResolveErrorStatus
+;------------------------------------------------------
+params
+	Numeric pErrorStatus : IN
+	String  pErrorText   : OUT
+	String  pErrorDesc   : OUT
+endparams
+
+	selectcase pErrorStatus
+		case -1
+			pErrorText = "General error"
+			pErrorDesc = ""
+		case -2
+			pErrorText = "Internal error"
+			pErrorDesc = "No context parameter at 3GL level, network message length inconsistencies, mismatch in local and remote privilege status"
+		case -3
+			pErrorText = "Request error"
+			pErrorDesc = "The Uniface Router did not receive a valid request code"
+		case -4
+			pErrorText = "Incompatible versions"
+			pErrorDesc = "Uniface Router Monitor and Uniface Router have incompatible versions"
+		case -16
+			pErrorText = "Network error"
+			pErrorDesc = "Problems with sending or receiving network requests"
+		case -17
+			pErrorText = "Host identifier not valid"
+			pErrorDesc = ""
+		case -18
+			pErrorText = "Connection error"
+			pErrorDesc = "Network connect to Uniface Router failed"
+		case -20
+			pErrorText = "Limit exceeded"
+			pErrorDesc = "Uniface Router’s $MAXCLIENTS or $MAXMONS limit exceeded"
+		case -21
+			pErrorText = "Not authorized for privileged operation. For admlogon(), user name and/or password not valid"
+			pErrorDesc = ""
+		case -52
+			pErrorText = "Call protocol error"
+			pErrorDesc = "connect() called when already connected, or other operation called when not connected"
+	endselectcase
+
+	return 0
+
+end ;lpResolveErrorStatus</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>
+ &uFRM;TYP=E&uSEP;NAM=UROUTERS.UROUTMON&uSEP;WID=25&uSEP;HEI=13&uSEP;HOC=25&uSEP;VOC=13&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=PID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=HOST&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CONNET&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CONADDR&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=LISNET1&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=LISTADDR1&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=LISNET2&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=LISTADDR2&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=LISNET3&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=LISTADDR3&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=STARTSTAMP&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=UROUTERD.UROUTMON&uSEP;WID=25&uSEP;HEI=11&uSEP;HOC=25&uSEP;VOC=11&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=PID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=PRIVILEGED&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=STATE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=MAXCLIENTS&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=MAXSERVERS&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=MAXMONS&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=RESPONSE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=IOPRINT&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=MSGTOCLIENTS&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=URCLIENTS.UROUTMON&uSEP;WID=25&uSEP;HEI=10&uSEP;HOC=25&uSEP;VOC=10&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=HOST&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=PID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=UST&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=USER&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CONNET&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CONADDR&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=SERVER&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CONSTAMP&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=URCLIENTD.UROUTMON&uSEP;WID=25&uSEP;HEI=15&uSEP;HOC=25&uSEP;VOC=15&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=HOST&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=PID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=IDLE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=IDLEPERCENT&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=BUSY&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=BUSYPERCENT&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=WAIT&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=WAITPERCENT&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=STATE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=SRVUST&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=SRVUSTQUE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=SRVID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=SRVIDQUE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=URSERVERS.UROUTMON&uSEP;WID=25&uSEP;HEI=14&uSEP;HOC=25&uSEP;VOC=14&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=SRVID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=PID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=UST&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=USER&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=HOST&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=STARTSTAMP&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CONNET&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CONADDR&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=SERVER&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=MAXSRV&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=MAXIDLE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=MAXREQ&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=URSERVERD.UROUTMON&uSEP;WID=25&uSEP;HEI=14&uSEP;HOC=25&uSEP;VOC=14&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=SRVID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=IDLE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=IDLEPERCENT&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=BUSY&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=BUSYPERCENT&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=REQUESTS&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=SRVQUE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=USTQUE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=STATE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CLTHOST&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CLTPID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=TRANSACTION&uSEP;WID=20&uSEP;HEI=1&uFRM;</DAT>
+<DAT name="SFUNC" xml:space='preserve'>;------------------------------------------------------------------
+operation init
+;------------------------------------------------------------------
+
+	newinstance "UROUTMON", $monitor$
+
+	$host$     = "localhost"
+	$protocol$ = "TCP"
+	$port$     = "13001"
+	return 0
+
+end ;init
+
+
+;------------------------------------------------------------------
+operation setProperty
+;------------------------------------------------------------------
+params
+	String pProperty : IN
+	String pValue    : IN
+endparams
+
+	selectcase $uppercase(pProperty)
+		case "HOST"
+			$host$ = pValue
+		case "PROTOCOL"
+			$protocol$ = pValue
+		case "PORT"
+			$port$ = pValue
+	endselectcase
+
+	return 0
+
+end ;setProperty
+
+
+;------------------------------------------------------------------
+; TODO: Can we have this service to port scan a server and give you
+;       a list of urouters?
+;------------------------------------------------------------------
+operation connect
+;------------------------------------------------------------------
+variables
+	;TODO: How should we return these error codes? 2 out params? 1
+	;      out list? 1 byref struct? Get consumer to call back for
+	;      exact problem after a -1 status return?
+	String vErrorText
+	String vErrorDesc
+endvariables
+
+	;Parameters
+	;	- Host:    Machine on which the Uniface Router is running; 
+	;             the default is localhost. The Router Monitor must
+	;	           connect to the Uniface Router using TCP4. It has
+	;	           not yet been upgraded to use TCP6 connections,
+	;	           although it will display both TCP4 and TCP6
+	;	           connections.
+	;	- Connet:  Network protocol to connect to the Uniface Router; the default is TCP
+	;	- Conaddr: Address on the host to connect to (for example,
+	;             the port); the default is 13001
+
+	$monitor$-&gt;connect($host$, $protocol$, $port$)
+	if($status &lt; 0)
+		call lpResolveErrorStatus($status, vErrorText, vErrorDesc)
+		return -1
+	endif
+
+	return 0
+
+end ;connect
+
+
+;------------------------------------------------------------------
+operation disconnect
+;------------------------------------------------------------------
+
+	$monitor$-&gt;disconnect()
+	if($status &lt; 0)
+		; 0   - Although normally means success, in some operations that return occurrences, it should be interpreted as an error. In all operations that can return an optional number of occurrences, the entity pointer will point to one empty occurrence.
+		; -1  - General error, could have operation-specific meaning
+		; -2  - Internal error: no context parameter at 3GL level, network message length inconsistencies, mismatch in local and remote privilege status
+		; -3  - Request error: the Uniface Router did not receive a valid request code
+		; -4  - Uniface Router Monitor and Uniface Router have incompatible versions
+		; -16 - Network error: problems with sending or receiving network requests
+		; -17 - Host identifier not valid
+		; -18 - Connection error: network connect to Uniface Router failed
+		; -20 - Uniface Router’s $MAXCLIENTS or $MAXMONS limit exceeded
+		; -21 - Not authorized for privileged operation. For admlogon(), user name and/or password not valid 
+		; -52 - Call protocol error: connect() called when already connected, or other operation called when not connected
+		return -1
+	endif
+
+	return 0
+
+end ;disconnect
+
+
+;------------------------------------------------------------------
+operation admLogon
+;------------------------------------------------------------------
+
+	$monitor$-&gt;admLogon("urouter", "urouter")
+	if($status &lt; 0)
+		; 0   - Although normally means success, in some operations that return occurrences, it should be interpreted as an error. In all operations that can return an optional number of occurrences, the entity pointer will point to one empty occurrence.
+		; -1  - General error, could have operation-specific meaning
+		; -2  - Internal error: no context parameter at 3GL level, network message length inconsistencies, mismatch in local and remote privilege status
+		; -3  - Request error: the Uniface Router did not receive a valid request code
+		; -4  - Uniface Router Monitor and Uniface Router have incompatible versions
+		; -16 - Network error: problems with sending or receiving network requests
+		; -17 - Host identifier not valid
+		; -18 - Connection error: network connect to Uniface Router failed
+		; -20 - Uniface Router’s $MAXCLIENTS or $MAXMONS limit exceeded
+		; -21 - Not authorized for privileged operation. For admlogon(), user name and/or password not valid 
+		; -52 - Call protocol error: connect() called when already connected, or other operation called when not connected
+		return -1
+	endif
+
+	return 0
+
+end ;admLogon
+
+
+;------------------------------------------------------------------
+operation admLogoff
+;------------------------------------------------------------------
+
+	$monitor$-&gt;admLogoff()
+	if($status &lt; 0)
+		; 0   - Although normally means success, in some operations that return occurrences, it should be interpreted as an error. In all operations that can return an optional number of occurrences, the entity pointer will point to one empty occurrence.
+		; -1  - General error, could have operation-specific meaning
+		; -2  - Internal error: no context parameter at 3GL level, network message length inconsistencies, mismatch in local and remote privilege status
+		; -3  - Request error: the Uniface Router did not receive a valid request code
+		; -4  - Uniface Router Monitor and Uniface Router have incompatible versions
+		; -16 - Network error: problems with sending or receiving network requests
+		; -17 - Host identifier not valid
+		; -18 - Connection error: network connect to Uniface Router failed
+		; -20 - Uniface Router’s $MAXCLIENTS or $MAXMONS limit exceeded
+		; -21 - Not authorized for privileged operation. For admlogon(), user name and/or password not valid 
+		; -52 - Call protocol error: connect() called when already connected, or other operation called when not connected
+		return -1
+	endif
+
+	return 0
+
+end ;admLogoff
+
+
+;------------------------------------------------------------------
+operation getURouter
+;------------------------------------------------------------------
+params
+	byref Struct pURouterS : OUT
+endparams
+
+variables
+	;TODO: How should we return these error codes? 2 out params? 1
+	;      out list? 1 byref struct? Get consumer to call back for
+	;      exact problem after a -1 status return?
+	String vErrorText
+	String vErrorDesc
+endvariables
+
+	;TODO: Can we assume this information wont change and therefore
+	;      not bother re-retrieving it if we have it already?
+	clear/e "UROUTERS"
+	$monitor$-&gt;get_urouter("UROUTERS")
+	if($status &lt; 0)
+		call lpResolveErrorStatus($status, vErrorText, vErrorDesc)
+		return -1
+	endif
+
+	componenttostruct pURouterS, "UROUTERS"
+
+	return 0
+
+end ;getURouter
+
+
+;------------------------------------------------------------------
+; Get dynamic information about the Uniface Router.
+;------------------------------------------------------------------
+operation getURouterDynamic
+;------------------------------------------------------------------
+params
+	byref Struct pURouterD : OUT
+endparams
+
+	clear/e "UROUTERD"
+
+	$monitor$-&gt;get_urouter_dyn("UROUTERD")
+	if($status &lt; 0)
+		; 0   - Although normally means success, in some operations that return occurrences, it should be interpreted as an error. In all operations that can return an optional number of occurrences, the entity pointer will point to one empty occurrence.
+		; -1  - General error, could have operation-specific meaning
+		; -2  - Internal error: no context parameter at 3GL level, network message length inconsistencies, mismatch in local and remote privilege status
+		; -3  - Request error: the Uniface Router did not receive a valid request code
+		; -4  - Uniface Router Monitor and Uniface Router have incompatible versions
+		; -16 - Network error: problems with sending or receiving network requests
+		; -17 - Host identifier not valid
+		; -18 - Connection error: network connect to Uniface Router failed
+		; -20 - Uniface Router’s $MAXCLIENTS or $MAXMONS limit exceeded
+		; -21 - Not authorized for privileged operation. For admlogon(), user name and/or password not valid 
+		; -52 - Call protocol error: connect() called when already connected, or other operation called when not connected
+		return -1
+	endif
+
+	componenttostruct pURouterD, "UROUTERD"
+
+	return 0
+
+end ;getURouter
+
+
+;------------------------------------------------------------------
+operation getClients
+;------------------------------------------------------------------
+params
+	byref Struct pURClientS : OUT
+endparams
+
+	clear/e "URCLIENTS"
+
+	;Parameters
+	;	- The input parameter Using (mandatory) should be:
+	;		- C for clients with the specified host name, UST, and/or user name
+	;		- S for clients using servers with the specified host name, UST, and/or user name
+	;	- Host is the host name of the client or server
+	;	- User is the user name of the client or server
+	;	- UST is the Uniface Server Type (UST) of the client or server
+	;	- Multiple occurrences of entity URCLIENTS.UROUTMON, containing clients information.
+
+	$monitor$-&gt;get_clients("C", "", "", "", "URCLIENTS")
+	if($status &lt; 0)
+		return -1
+	endif
+
+	componenttostruct pURClientS, "URCLIENTS"
+
+	return 0
+
+end ;getClients
+
+
+;------------------------------------------------------------------
+operation getServers
+;------------------------------------------------------------------
+params
+	byref Struct pURServerS : OUT
+endparams
+
+	clear/e "URSERVERS"
+
+	;Parameters
+	;	- Using (mandatory) should be:
+	;		- S for servers with the specified host name, UST, and/or user name 
+	;		- C for servers used by clients with the specified host name, UST, and/or user name
+	;	- Host is the host name of the client or server
+	;	- User is the user name of the client or server
+	;	- UST is the Uniface Server Type (UST) of the client or server
+	;  - Multiple occurrences of entity URSERVERS.UROUTMON, containing servers information.
+
+	$monitor$-&gt;get_servers("S", "", "", "", "URSERVERS")
+	if($status &lt; 0)
+		return -1
+	endif
+
+	componenttostruct pURServerS, "URSERVERS"
+
+	return 0
+
+end ;getServers
+
+
+;------------------------------------------------------------------
+; Get dynamic information about a client registered with the
+; Uniface Router.
+;------------------------------------------------------------------
+operation getClientDynamic
+;------------------------------------------------------------------
+params
+	String       pHost         : IN
+	String       pPid          : IN
+	Boolean      pUpdateStatic : OUT
+	byref Struct pURClientD    : OUT
+endparams
+
+	clear/e "URCLIENTD"
+
+	;Parameters
+	;	- Host (mandatory) is the client’s host name (from the URCLIENTS entity)
+	;	- PID (mandatory) is the client’s process ID.
+	;	- The output parameter Updatestatic specifies whether the
+	;	  last returned static clients view should be updated (TRUE)
+	;	  or not (FALSE).
+	;	- Single occurrence of entity URCLIENTD.UROUTMON, containing
+	;	  client information
+
+	$monitor$-&gt;get_client_dyn(pHost, pPid, pUpdateStatic, "URCLIENTD")
+
+	componenttostruct pURClientD, "URCLIENTD"
+
+	return 0
+
+end ;getClientDynamic
+
+
+;------------------------------------------------------------------
+; Get dynamic information about a server registered with the
+; Uniface Router.
+;------------------------------------------------------------------
+operation getServerDynamic
+;------------------------------------------------------------------
+params
+	String       pSrvId        : IN
+	Boolean      pUpdateStatic : OUT
+	byref Struct pURServerD    : OUT	
+endparams
+
+	clear/e "URSERVERD"
+
+	;Parameters
+	;	- Srvid (mandatory) is the server’s ID (from the URSERVERS entity)
+	;	- The output parameter Updatestatic specifies whether the
+	;	  last returned static servers view should be updated (TRUE)
+	;	  or not (FALSE). 
+	;	- Single occurrence of entity URSERVERD.UROUTMON, containing
+	;	  server information.
+
+	$monitor$-&gt;get_server_dyn(pSrvId, pUpdateStatic, "URSERVERD")
+
+	componenttostruct pURServerD, "URCLIENTD"
+
+	return 0
+
+end ;getServerDynamic
+
+
+;------------------------------------------------------------------
+; Start a number of servers under normal control by the Uniface
+; Router.
+;------------------------------------------------------------------
+operation startServers
+;------------------------------------------------------------------
+params
+	Numeric pTotalServers : IN
+	String  pUser         : IN
+	String  pPassword     : IN
+	String  pUst          : IN
+	String  pQualifiers   : IN
+endparams
+
+	;Parameters
+	;	- Totalservers is the number of instances of this server to
+	;	  be started. Be aware that the Uniface Router will not
+	;	  exceed its $MAXSERVERS limit.
+	;	- User is the user name under which the servers will run.
+	;	  On Microsoft Windows NT, do not specify a domain name in
+	;	  the user parameter; the user name is validated against
+	;	  trusted domain servers. 
+	;	- Password is the password. The user and password must be a
+	;	  valid combination on the Uniface Router’s host machine. 
+	;	- UST is the Uniface Server Type (UST) of the servers
+	;	- Qualifiers contains optional command line switches to use
+	;	  in starting the servers.
+
+	$monitor$-&gt;start_servers(pTotalServers, pUser, pPassword, pUst, pQualifiers)
+	if($status &lt; 0)
+		return -1
+	endif
+
+	return 0
+
+end ;startServers
+
+
+;------------------------------------------------------------------
+; Stop one or more Uniface Servers by UST
+;------------------------------------------------------------------
+operation stopServersByUST
+;------------------------------------------------------------------
+params
+	String  pUST    : IN
+	Boolean pForced : IN
+endparams
+
+variables
+	String vMode
+endvariables
+
+	;Parameters
+	;	- Srvid, if specified, is the ID of the single server to be
+	;	  stopped.
+	;	- Using, if specified, should be:
+	;		- S for servers with the specified host name, UST, and/or
+	;		  user name 
+	;		- C for servers used by clients with the specified host
+	;		  name, UST, and/or user name
+	;	- Host is the host name of the client or server
+	;	- User is the user name of the client or server
+	;	- UST is the Uniface Server Type (UST) of the client or
+	;	  server
+	;	- Mode is the stop-mode: F for forced or N for normal.
+	;
+	; In forced mode, servers are stopped immediately and clients
+	; are disconnected. In normal mode, existing clients are
+	; allowed to deliver requests to servers until the server
+	; reports it has no state, that is, it has no locks and no
+	; context (active component instances). At that moment, the
+	; server is stopped.
+	;
+	; The selection criteria Host, User and/or UST, if present, are
+	; logically AND'ed and applied to running servers or clients to
+	; select the servers to be stopped.
+	;
+	; This operation returns once the request is posted to the
+	; Uniface Router. This operation might fail if the servers were
+	; already flagged as stopping at an equal or higher mode.
+
+	if(pForced)
+		vMode = "F"
+	else
+		vMode = "N"
+	endif
+
+	$monitor$-&gt;stop_servers("", "", "", "", pUST, vMode)
+	if($status &lt; 0)
+		return -1
+	endif
+
+	return 0
+
+end ;stopServersByUST
+
+
+;------------------------------------------------------------------
+; Check if the Uniface Router has at least one client or server
+; running with the specified attributes.
+;------------------------------------------------------------------
+operation doYouHaveByUst
+;------------------------------------------------------------------
+params
+	String  pUst         : IN
+	Numeric pServerCount : OUT
+endparams
+
+	;Parameters
+	;	- Using should be:
+	;		- S for servers with the specified host name, UST, and/or user name 
+	;		- C for clients with the specified host name, UST, and/or user name
+	;		- Blank for either servers or clients
+	;	- Host is the host name of the client or server
+	;	- User is the user name of the client or server
+	;	- UST is the Uniface Server Type (UST) of the client or server
+	;	- Not used
+	$monitor$-&gt;urouter_doYouHave("", "", "", pUST, "")
+	if($status &lt; 0)
+		return -1
+	endif
+
+	pServerCount = $status
+
+	return 0
+
+end ;doYouHaveByUst
+</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXGROUP" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,1" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_BORD" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DBMS" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_UPD" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINL" seqno="11" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXL" seqno="12" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINR" seqno="13" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXR" seqno="14" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLGINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="17" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="GETOCC" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="PUTOCC" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="DELOCC" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="LCK" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UNLOCK" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="GETSEGM" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ADDOCC" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DELOCCR" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="CREOCC" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="FINDOCC" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="FLIST" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="BREAK" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="VLDE" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDK" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="UISBCLASS" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UISASSOC" seqno="43" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_OBJSVC" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="U_SVCUSE" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTPROP" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_TABTYPE" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_B" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_E" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTCLASS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="U_GLAB" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UEOINTERFACE" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UECINTERFACE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="UEOOPERS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="UECOPERS" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="UEOTRIGGERS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="UECTRIGGERS" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETTYPE" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETCREATE" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="PRLO" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="PSLO" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="PRSO" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="PSSO" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="UPARENT" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETTYPE" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F2,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETCREATE" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T13:47:45.00</DAT>
+<DAT name="ULABEL">URCLIENTD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T11:52:05.00</DAT>
+<DAT name="ULABEL">URCLIENTS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:06.00</DAT>
+<DAT name="ULABEL">UROUTERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T11:28:48.00</DAT>
+<DAT name="ULABEL">UROUTERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:20:59.00</DAT>
+<DAT name="ULABEL">URSERVERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T13:30:16.00</DAT>
+<DAT name="ULABEL">URSERVERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="4" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="U_TLAB" seqno="6" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="8" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="9" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLLAY" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LAYOUTMOD" seqno="12" type="S" level="2" pack="0" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLSYN" seqno="13" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="SYNTAXMOD" seqno="14" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="INTERFACEMOD" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TABSTOP" seqno="17" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WIDGETTYPE" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="19" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="20" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="STARTMOD" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="WIDGETCREATE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="UISOBJID" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HTML_FLDPROP" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="HTML_CTRLTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_M" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_FLDCLASS" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLCLASS" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="UFOPERS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="UFORMATS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="WEBWIDGETTYPE" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="WEBWIDGETCREATE" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:34:06.00</DAT>
+<DAT name="ULABEL">BUSY</DAT>
+<DAT name="GRP">URCLIENTD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:21:24.00</DAT>
+<DAT name="ULABEL">BUSY</DAT>
+<DAT name="GRP">URSERVERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:34:06.00</DAT>
+<DAT name="ULABEL">BUSYPERCENT</DAT>
+<DAT name="GRP">URCLIENTD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:21:24.00</DAT>
+<DAT name="ULABEL">BUSYPERCENT</DAT>
+<DAT name="GRP">URSERVERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:21:24.00</DAT>
+<DAT name="ULABEL">CLTHOST</DAT>
+<DAT name="GRP">URSERVERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:21:24.00</DAT>
+<DAT name="ULABEL">CLTPID</DAT>
+<DAT name="GRP">URSERVERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T13:45:55.00</DAT>
+<DAT name="ULABEL">CONADDR</DAT>
+<DAT name="GRP">URCLIENTS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:57.00</DAT>
+<DAT name="ULABEL">CONADDR</DAT>
+<DAT name="GRP">UROUTERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:20:36.00</DAT>
+<DAT name="ULABEL">CONADDR</DAT>
+<DAT name="GRP">URSERVERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T13:45:55.00</DAT>
+<DAT name="ULABEL">CONNET</DAT>
+<DAT name="GRP">URCLIENTS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:57.00</DAT>
+<DAT name="ULABEL">CONNET</DAT>
+<DAT name="GRP">UROUTERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:20:36.00</DAT>
+<DAT name="ULABEL">CONNET</DAT>
+<DAT name="GRP">URSERVERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T13:45:55.00</DAT>
+<DAT name="ULABEL">CONSTAMP</DAT>
+<DAT name="GRP">URCLIENTS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:34:06.00</DAT>
+<DAT name="ULABEL">HOST</DAT>
+<DAT name="GRP">URCLIENTD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T13:45:55.00</DAT>
+<DAT name="ULABEL">HOST</DAT>
+<DAT name="GRP">URCLIENTS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:57.00</DAT>
+<DAT name="ULABEL">HOST</DAT>
+<DAT name="GRP">UROUTERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:20:36.00</DAT>
+<DAT name="ULABEL">HOST</DAT>
+<DAT name="GRP">URSERVERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:34:06.00</DAT>
+<DAT name="ULABEL">IDLE</DAT>
+<DAT name="GRP">URCLIENTD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:21:24.00</DAT>
+<DAT name="ULABEL">IDLE</DAT>
+<DAT name="GRP">URSERVERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:34:06.00</DAT>
+<DAT name="ULABEL">IDLEPERCENT</DAT>
+<DAT name="GRP">URCLIENTD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:21:24.00</DAT>
+<DAT name="ULABEL">IDLEPERCENT</DAT>
+<DAT name="GRP">URSERVERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:51.00</DAT>
+<DAT name="ULABEL">IOPRINT</DAT>
+<DAT name="GRP">UROUTERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:57.00</DAT>
+<DAT name="ULABEL">LISNET1</DAT>
+<DAT name="GRP">UROUTERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:57.00</DAT>
+<DAT name="ULABEL">LISNET2</DAT>
+<DAT name="GRP">UROUTERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:57.00</DAT>
+<DAT name="ULABEL">LISNET3</DAT>
+<DAT name="GRP">UROUTERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:57.00</DAT>
+<DAT name="ULABEL">LISTADDR1</DAT>
+<DAT name="GRP">UROUTERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:57.00</DAT>
+<DAT name="ULABEL">LISTADDR2</DAT>
+<DAT name="GRP">UROUTERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:57.00</DAT>
+<DAT name="ULABEL">LISTADDR3</DAT>
+<DAT name="GRP">UROUTERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:51.00</DAT>
+<DAT name="ULABEL">MAXCLIENTS</DAT>
+<DAT name="GRP">UROUTERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:20:36.00</DAT>
+<DAT name="ULABEL">MAXIDLE</DAT>
+<DAT name="GRP">URSERVERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:51.00</DAT>
+<DAT name="ULABEL">MAXMONS</DAT>
+<DAT name="GRP">UROUTERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:20:36.00</DAT>
+<DAT name="ULABEL">MAXREQ</DAT>
+<DAT name="GRP">URSERVERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:51.00</DAT>
+<DAT name="ULABEL">MAXSERVERS</DAT>
+<DAT name="GRP">UROUTERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:20:36.00</DAT>
+<DAT name="ULABEL">MAXSRV</DAT>
+<DAT name="GRP">URSERVERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:51.00</DAT>
+<DAT name="ULABEL">MSGTOCLIENTS</DAT>
+<DAT name="GRP">UROUTERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:34:06.00</DAT>
+<DAT name="ULABEL">PID</DAT>
+<DAT name="GRP">URCLIENTD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T13:45:55.00</DAT>
+<DAT name="ULABEL">PID</DAT>
+<DAT name="GRP">URCLIENTS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:51.00</DAT>
+<DAT name="ULABEL">PID</DAT>
+<DAT name="GRP">UROUTERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:57.00</DAT>
+<DAT name="ULABEL">PID</DAT>
+<DAT name="GRP">UROUTERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:20:36.00</DAT>
+<DAT name="ULABEL">PID</DAT>
+<DAT name="GRP">URSERVERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:51.00</DAT>
+<DAT name="ULABEL">PRIVILEGED</DAT>
+<DAT name="GRP">UROUTERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:21:24.00</DAT>
+<DAT name="ULABEL">REQUESTS</DAT>
+<DAT name="GRP">URSERVERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:51.00</DAT>
+<DAT name="ULABEL">RESPONSE</DAT>
+<DAT name="GRP">UROUTERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T13:45:55.00</DAT>
+<DAT name="ULABEL">SERVER</DAT>
+<DAT name="GRP">URCLIENTS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:20:36.00</DAT>
+<DAT name="ULABEL">SERVER</DAT>
+<DAT name="GRP">URSERVERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:34:07.00</DAT>
+<DAT name="ULABEL">SRVID</DAT>
+<DAT name="GRP">URCLIENTD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:21:24.00</DAT>
+<DAT name="ULABEL">SRVID</DAT>
+<DAT name="GRP">URSERVERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:20:36.00</DAT>
+<DAT name="ULABEL">SRVID</DAT>
+<DAT name="GRP">URSERVERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:34:07.00</DAT>
+<DAT name="ULABEL">SRVIDQUE</DAT>
+<DAT name="GRP">URCLIENTD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:21:24.00</DAT>
+<DAT name="ULABEL">SRVQUE</DAT>
+<DAT name="GRP">URSERVERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:34:07.00</DAT>
+<DAT name="ULABEL">SRVUST</DAT>
+<DAT name="GRP">URCLIENTD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:34:07.00</DAT>
+<DAT name="ULABEL">SRVUSTQUE</DAT>
+<DAT name="GRP">URCLIENTD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:57.00</DAT>
+<DAT name="ULABEL">STARTSTAMP</DAT>
+<DAT name="GRP">UROUTERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:20:36.00</DAT>
+<DAT name="ULABEL">STARTSTAMP</DAT>
+<DAT name="GRP">URSERVERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:34:06.00</DAT>
+<DAT name="ULABEL">STATE</DAT>
+<DAT name="GRP">URCLIENTD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:33:51.00</DAT>
+<DAT name="ULABEL">STATE</DAT>
+<DAT name="GRP">UROUTERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:21:24.00</DAT>
+<DAT name="ULABEL">STATE</DAT>
+<DAT name="GRP">URSERVERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:21:24.00</DAT>
+<DAT name="ULABEL">TRANSACTION</DAT>
+<DAT name="GRP">URSERVERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T13:45:55.00</DAT>
+<DAT name="ULABEL">USER</DAT>
+<DAT name="GRP">URCLIENTS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:20:36.00</DAT>
+<DAT name="ULABEL">USER</DAT>
+<DAT name="GRP">URSERVERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T13:45:55.00</DAT>
+<DAT name="ULABEL">UST</DAT>
+<DAT name="GRP">URCLIENTS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:20:36.00</DAT>
+<DAT name="ULABEL">UST</DAT>
+<DAT name="GRP">URSERVERS</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:21:24.00</DAT>
+<DAT name="ULABEL">USTQUE</DAT>
+<DAT name="GRP">URSERVERD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:34:06.00</DAT>
+<DAT name="ULABEL">WAIT</DAT>
+<DAT name="GRP">URCLIENTD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T14:34:06.00</DAT>
+<DAT name="ULABEL">WAITPERCENT</DAT>
+<DAT name="GRP">URCLIENTD</DAT>
+<DAT name="UBASE">UROUTMON</DAT>
+<DAT name="UFORM">APP_UROUTMON</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXREGS" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_STAT" seqno="2" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_TYPE" seqno="3" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_FORMLIB" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,3" idxsnr="101,1" />
+<FLD name="U_NAME" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_LAYOUT" seqno="9" type="S" level="2" pack="0" scale="0" length="46"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DOC" seqno="10" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T16:30:29.00</DAT>
+<DAT name="U_FORMLIB">APP_UROUTMON</DAT>
+<DAT name="U_NAME">HOST</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T11:29:01.00</DAT>
+<DAT name="U_FORMLIB">APP_UROUTMON</DAT>
+<DAT name="U_NAME">MONITOR</DAT>
+<DAT name="U_DTYP">H</DAT>
+<DAT name="USCOPE">PUB</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T16:30:29.00</DAT>
+<DAT name="U_FORMLIB">APP_UROUTMON</DAT>
+<DAT name="U_NAME">PORT</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-03-31T16:30:29.00</DAT>
+<DAT name="U_FORMLIB">APP_UROUTMON</DAT>
+<DAT name="U_NAME">PROTOCOL</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

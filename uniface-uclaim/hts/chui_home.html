@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <title>MDSP_HOME</title>
+    </head>
+    <body>
+        <article id="MDSP_HOME-article" class="show">
+            <section>
+                <div id="uent:CLAIM.INSURANCE">
+                    <div id="uocc:CLAIM.INSURANCE">
+                         <h1 style="margin: 0 10px;">
+                            <span id="ufld:FIRSTNAME.CUSTOMER.INSURANCE"></span>
+                            <span id="ufld:LASTNAME.CUSTOMER.INSURANCE"></span>
+                        </h1>
+                        <h3 style="margin: 0 10px;">2015 $text(M_EFFECTPOLICIES)</h3>
+                        <ul class='list' ui-implements='form' id="uent:POLICY.INSURANCE">
+                            <li class='comp' id="uocc:POLICY.INSURANCE">
+                                <aside>	<span id="ufld:ICON.POLICY.INSURANCE"></span></aside> 
+                                <span id="ufld:DESCRIPTION.POLICY.INSURANCE"></span>
+	                            <span class='show-detail'></span>
+                            </li>
+                        </ul>
+                         <h3 style="margin: 0 10px;"> $text(M_MESSAGES)</h3>
+                        <ul class='list' ui-implements='form'>
+                            <li class="comp">
+                                <aside>	<span class="icon iconMail"></span></aside>
+                                <span> $text(M_CALLAGENT1)</span>
+                                <br />	
+                                <span> 1-800-267-8723</span>
+                            </li>
+                        </ul>
+                         <h3 style="margin: 0 10px;"> $text(M_CALLAGENT2)</h3>
+                        <ul class='list' ui-implements='form' id="uent:DISCOUNTS.INSURANCE">
+                            <li id="uocc:DISCOUNTS.INSURANCE" class="comp">
+                                <aside>	<span id="ufld:ICON.DISCOUNTS.INSURANCE"></span></aside>	
+                                <span id="ufld:DISCOUNTTYPE.DISCOUNTS.INSURANCE">Static Text</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </body>
+</html>
